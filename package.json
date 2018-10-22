@@ -1,14 +1,16 @@
 {
+  "private": true,
   "name": "karma-jasmine",
   "version": "1.1.2",
   "description": "A Karma plugin - adapter for Jasmine testing framework.",
   "main": "lib/index.js",
   "scripts": {
+    "preinstall": "grunt build",
     "test": "grunt test"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/karma-runner/karma-jasmine.git"
+    "url": "git://github.com/jaboko/karma-jasmine.git"
   },
   "keywords": [
     "karma-plugin",

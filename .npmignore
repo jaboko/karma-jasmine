@@ -2,6 +2,7 @@
 src
 test
 tasks
+integration-tests
 
 gruntfile.js
 karma.conf.js
